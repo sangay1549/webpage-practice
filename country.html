@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Info Explorer</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding: 40px; background: #f0f2f5; }
+        .container { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+        select { width: 100%; padding: 10px; margin-bottom: 20px; font-size: 16px; }
+        img { width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-top: 15px; }
+        .info { text-align: left; margin-top: 15px; line-height: 1.6; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Explore Countries</h2>
+    <select id="countrySelect">
+        <option value="bhutan">Bhutan</option>
+        <option value="ghana">Ghana</option>
+        <option value="argentina">Argentina</option>
+        <option value="portugal">Portugal</option>
+        <option value="france">France</option>
+        <option value="philippines">Philippines</option>
+        <option value="thailand">Thailand</option>
+        <option value="italy">Italy</option>
+    </select>
+
+    <div id="display">
+        </div>
+</div>
+
+<script src="country.js"></script>
+</body>
+</html>
